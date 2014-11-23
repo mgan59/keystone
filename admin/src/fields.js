@@ -3,6 +3,7 @@ module.exports = {
 	date:             require('../../fields/types/date/date'),
 	datetime:         require('../../fields/types/datetime/datetime'),
 	email:            require('../../fields/types/email/email'),
+	html:             require('../../fields/types/html/html'),
 	location:         require('../../fields/types/location/location'),
 	markdown:         require('../../fields/types/markdown/markdown'),
 	name:             require('../../fields/types/name/name'),
