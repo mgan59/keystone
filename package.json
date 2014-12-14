@@ -7,6 +7,15 @@
     "type": "git",
     "url": "https://github.com/keystonejs/keystone.git"
   },
+  "browserify": {
+    "transform": [
+      "browserify-shim",
+      "reactify"
+    ]
+  },
+  "browserify-shim": {
+    "./node_modules/tinymce/tinymce.js": {"exports": "tinymce"}
+  },
   "dependencies": {
     "async": "~0.9.0",
     "azure": "~0.10.1",

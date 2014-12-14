@@ -35,7 +35,6 @@ gulp.task('build-scripts', function() {
 			standalone: 'App'
 		})
 		.add('./admin/src/app.js')
-		.transform(reactify)
 		.bundle()
 		.on('error', function(e) {
 			gutil.log('Browserify Error', e);
